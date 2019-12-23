@@ -1,0 +1,57 @@
+// deafult Color
+$primary-color: 		    #EE3A4E!default;		// blue
+$secondary-color:	        #41B6F7 !default;		// red
+$quinary-color:			    #272727 !default;		// Grey
+
+// Custom-color
+$text-color:				#494848 !default;
+$title-color:				#494848 !default;
+$border-color:              #d0d0d0 !default;
+$text-alt:					#282828 !default;
+$text-off: 					#281107 !default;
+$white:						#fff !default;
+$black:						#000 !default;
+$red:						#C60C02 !default;
+
+// Font size
+$base-font:					1.6rem !default;		
+$text-xs:					0.9333rem !default;		
+$text-sm:					0.9375rem !default;		
+$text-md:					1.133rem !default;		
+$text-lg:					1.267rem !default;		
+$h1:						4rem!default;   
+$h2:						3.5rem !default;
+$h3:						3rem !default;
+$h4:						2.5rem !default;	
+$h5:						2rem !default;	
+$h6:						1.6rem !default; 
+
+
+
+// Font Family
+$font-family:				 'Montserrat', sans-serif;
+$icons:						 'bisdesk' !default;
+
+//button
+$font-light:300;
+$font-regular:400;
+$font-medium:500;
+$font-semibold:600;
+$font-bold:700;
+$font-weight-title:         $font-semibold;
+// Media Queries Mixins
+$xs-width:					480px !default;
+$sm-width:					768px !default;
+$md-width:					992px !default;
+$lg-width:					1200px !default;
+$qa-width:					1360px !default;
+$lap-width:					1440px !default;
+$default-width:				1800px !default;
+
+// Spacing
+$gutter-1:					30px !default;	// 30px
+$spacing:					50px !default;	// 50px.
+
+// zindex
+$header-z:999;
+$filter-z:99;
