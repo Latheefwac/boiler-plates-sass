@@ -1,14 +1,6 @@
 /*  ===============
   1. Reset
 ===============  */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-	display: block;
-  }
   
 html {
 	font-size: 10px;
@@ -55,107 +47,12 @@ p {
 		}
 	}
 }
-.clearfix {
-	@include clearfix;
-}
 svg:focus {
 		 appearance: none;
 	-moz-appearance: none;
 	outline: none;
 }
-svg {
-	@include transition(all,ease,0.6s);
-}
-// a, button, submit and reset default styles
-a,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-	appearance: none;
-	-webkit-appearance: none;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	outline: none;
-	text-shadow: none;
-	-webkit-text-shadow: none;
-	border-left:0;
-	border-right: 0;
-	border-top: 0;
-	@include transition(all,ease-in-out,0.3s);
-	&:hover {
-		appearance: none;
-		-webkit-appearance: none;
-		outline: none;
-		text-decoration: none;
-	}
-}
-a {
-	color: inherit;
-	display: inline-block;
-}
-a[href^="tel"] {
-	color: inherit;
-	cursor: default;
-}
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
 
-ol ol,
-ul ul,
-ol ul,
-ul ol {
-  margin-bottom: 0;
-}
-img {
-	height: auto;
-	max-height: 100%;
-	max-width: 100%
-}	
-// wordpress styles
-// img {
-// 	height: auto;
-// 	max-height: 100%;
-// 	max-width: 100%;
-// 	&.alignright {
-// 		display: inline;
-// 		float: right;
-// 		margin: 24px 0 24px 20px;
-// 	}
-// 	&.alignleft {
-// 		display: inline;
-// 		float: left;
-// 		margin: 24px 20px 24px 0;
-// 	}
-// 	&.aligncenter {
-// 		clear: both;
-// 		display: block;
-// 		margin: 10px auto;
-// 	}
-// 	&.alignnone {
-// 		display: inline;
-// 		margin: 10px;
-// 	}
-// 	@include max(767) {
-// 		clear: both;
-// 		height: auto;
-// 		margin-left: 0;
-// 		margin-right: 0;
-// 		max-width: 100%;
-// 		width: auto;
-// 		&.alignleft,
-// 		&.alignright,
-// 		&.aligncenter,
-// 		&.alignnone {
-// 			clear: both;
-// 			display: block;
-// 			float: none;
-// 			margin: 10px auto 7px;
-// 		}
-// 	}
-// }
+// a, button, submit and reset default styles
+
 

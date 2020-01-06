@@ -5,17 +5,12 @@
 @import 'helpers/media-queries';
 
 // bootstrap
-@import 'bootstrap/grid';
-// @import 'bootstrap/bootstrap-all';
+@import 'bootstrap/bootstrap';
  // Base
 @import 'base/reset';
 @import 'base/headings';
-@import 'base/list-styles';
-@import 'base/tables';
-@import 'base/common';
 // Components
 @import 'components/font-kit';
-@import 'components/forms';
 @import 'components/buttons';
 @import 'components/navigation';
 @import 'components/plugins';
