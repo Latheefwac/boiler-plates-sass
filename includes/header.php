@@ -5,8 +5,8 @@
      <title>Site Name</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 <body class="">
 <header class="main-header logged">
@@ -19,7 +19,7 @@
 				<li><a class="">Menu-4</a></li>
 			</ul>
 		</nav>
-	</div>  
+	</div>
 	<div class="mob-btn">
 		<span></span>
 		<span></span>

@@ -1,12 +1,15 @@
 // deafult Color
-$primary-color: 		    #EE3A4E!default;		// blue
+$primary-color: 		    #2ED173!default;		// green
 $secondary-color:	        #41B6F7 !default;		// red
 $quinary-color:			    #272727 !default;		// Grey
 
 // Custom-color
-$text-color:				#494848 !default;
-$title-color:				#494848 !default;
-$border-color:              #d0d0d0 !default;
+$dark-bg:                   #20222E !default;
+$dark-gray:                  #323241 !default;
+$light-bg:                   #EDF1F7 !default;
+$text-color:				#1D1D1D !default;
+$title-color:				#1D1D1D !default;
+$border-color:              #E6E6E6 !default;
 $text-alt:					#282828 !default;
 $text-off: 					#281107 !default;
 $white:						#fff !default;
@@ -15,13 +18,17 @@ $red:						#C60C02 !default;
 
 // Font size
 $base-font:					1.6rem !default;		
-$text-xs:					0.9333rem !default;		
-$text-sm:					0.9375rem !default;		
-$text-md:					1.133rem !default;		
-$text-lg:					1.267rem !default;		
-$h1:						4rem!default;   
-$h2:						3.5rem !default;
-$h3:						3rem !default;
+$text-xs:					1rem !default;		
+$text-sm:					1.2rem !default;		
+$text-md:					2.3rem !default;		
+$text-lg:					1.4rem !default;	
+$ttl-xs:					1.8rem !default;		
+$ttl-sm:					2.2rem !default;		
+$ttl-md:					2.3rem !default;		
+$ttl-lg:					3.2rem !default;	
+$h1:						5rem!default;   
+$h2:						4rem !default;
+$h3:						3.2rem !default;
 $h4:						2.5rem !default;	
 $h5:						2rem !default;	
 $h6:						1.6rem !default; 
@@ -29,8 +36,8 @@ $h6:						1.6rem !default;
 
 
 // Font Family
-$font-family:				 'Montserrat', sans-serif;
-$icons:						 'bisdesk' !default;
+$font-family:				'Oxygen', sans-serif;
+$icons:						 'hamphotos' !default;
 
 //button
 $font-light:300;

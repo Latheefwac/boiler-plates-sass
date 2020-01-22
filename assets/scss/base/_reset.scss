@@ -1,6 +1,14 @@
 /*  ===============
   1. Reset
 ===============  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
+  }
   
 html {
 	font-size: 10px;
@@ -26,15 +34,14 @@ body {
 	position: relative;
     max-width: 2560px;
     margin: 0 auto;
-	padding-top: 86px; 
 }
 p {
 	font-size: $base-font;
 	font-weight: $font-regular();
 	line-height: 1.5;
-	text-align: inherit;
-	margin-top: 0;
-	margin-bottom: 1rem;
+	@include max(767) {
+		font-size: 1.6rem;
+	}
 	b,
 	strong {
 		@include font-bold();
@@ -47,12 +54,10 @@ p {
 		}
 	}
 }
-svg:focus {
-		 appearance: none;
-	-moz-appearance: none;
-	outline: none;
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+		color: $primary-color;
+	}
 }
-
-// a, button, submit and reset default styles
-
-
