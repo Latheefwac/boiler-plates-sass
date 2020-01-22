@@ -1,12 +1,107 @@
+
+@font-face {
+  font-family: 'gilroy-bold';
+  src: url('../fonts/gilroy/gilroy-bold-webfont.eot');
+  src: url('../fonts/gilroy/gilroy-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gilroy/gilroy-bold-webfont.woff2') format('woff2'),
+       url('../fonts/gilroy/gilroy-bold-webfont.woff') format('woff'),
+       url('../fonts/gilroy/gilroy-bold-webfont.ttf') format('truetype'),
+       url('../fonts/gilroy/gilroy-bold-webfont.svg#gilroy-bolduploaded_file') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gilroy-bold';
+  src: url('../fonts/gilroy/gilroy-bold-webfont.eot');
+  src: url('../fonts/gilroy/gilroy-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gilroy/gilroy-bold-webfont.woff2') format('woff2'),
+       url('../fonts/gilroy/gilroy-bold-webfont.woff') format('woff'),
+       url('../fonts/gilroy/gilroy-bold-webfont.ttf') format('truetype'),
+       url('../fonts/gilroy/gilroy-bold-webfont.svg#gilroy-bolduploaded_file') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gilroy-heavy';
+  src: url('../fonts/gilroy/gilroy-heavy-webfont.eot');
+  src: url('../fonts/gilroy/gilroy-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gilroy/gilroy-heavy-webfont.woff2') format('woff2'),
+       url('../fonts/gilroy/gilroy-heavy-webfont.woff') format('woff'),
+       url('../fonts/gilroy/gilroy-heavy-webfont.ttf') format('truetype'),
+       url('../fonts/gilroy/gilroy-heavy-webfont.svg#gilroy-heavyuploaded_file') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gilroy-light';
+  src: url('../fonts/gilroy/gilroy-light-webfont.eot');
+  src: url('../fonts/gilroy/gilroy-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gilroy/gilroy-light-webfont.woff2') format('woff2'),
+       url('../fonts/gilroy/gilroy-light-webfont.woff') format('woff'),
+       url('../fonts/gilroy/gilroy-light-webfont.ttf') format('truetype'),
+       url('../fonts/gilroy/gilroy-light-webfont.svg#gilroy-lightuploaded_file') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url('../fonts/gilroy/gilroy-medium-webfont.eot');
+  src: url('../fonts/gilroy/gilroy-medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gilroy/gilroy-medium-webfont.woff2') format('woff2'),
+       url('../fonts/gilroy/gilroy-medium-webfont.woff') format('woff'),
+       url('../fonts/gilroy/gilroy-medium-webfont.ttf') format('truetype'),
+       url('../fonts/gilroy/gilroy-medium-webfont.svg#gilroy-mediumuploaded_file') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'gilroy-regular';
+  src: url('../fonts/gilroy/gilroy-regular-webfont.eot');
+  src: url('../fonts/gilroy/gilroy-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gilroy/gilroy-regular-webfont.woff2') format('woff2'),
+       url('../fonts/gilroy/gilroy-regular-webfont.woff') format('woff'),
+       url('../fonts/gilroy/gilroy-regular-webfont.ttf') format('truetype'),
+       url('../fonts/gilroy/gilroy-regular-webfont.svg#gilroy-regularuploaded_file') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 // ../fonts/icons/
 @font-face {
-  font-family: 'bisdesk';
-  src: url('../fonts/icons/bisdesk.eot?22294636');
-  src: url('../fonts/icons/bisdesk.eot?22294636#iefix') format('embedded-opentype'),
-       url('../fonts/icons/bisdesk.woff2?22294636') format('woff2'),
-       url('../fonts/icons/bisdesk.woff?22294636') format('woff'),
-       url('../fonts/icons/bisdesk.ttf?22294636') format('truetype'),
-       url('../fonts/icons/bisdesk.svg?22294636#bisdesk') format('svg');
+  font-family: 'hamphotos';
+  src: url('../fonts/icons/hamphotos.eot?10761201');
+  src: url('../fonts/icons/hamphotos.eot?10761201#iefix') format('embedded-opentype'),
+       url('../fonts/icons/hamphotos.woff2?10761201') format('woff2'),
+       url('../fonts/icons/hamphotos.woff?10761201') format('woff'),
+       url('../fonts/icons/hamphotos.ttf?10761201') format('truetype'),
+       url('../fonts/icons/hamphotos.svg?10761201#hamphotos') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,14 +110,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'bisdesk';
-    src: url('../font/bisdesk.svg?22294636#bisdesk') format('svg');
+    font-family: 'hamphotos';
+    src: url('../font/hamphotos.svg?10761201#hamphotos') format('svg');
   }
 }
 */
  
- [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "bisdesk";
+ [class^="hp-"]:before, [class*=" hp-"]:before {
+  font-family: "hamphotos";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -56,43 +151,30 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-down-dir:before { content: '\e800'; } /* '' */
-.icon-left-open-big:before { content: '\e801'; } /* '' */
-.icon-right-open-big:before { content: '\e802'; } /* '' */
-.icon-left-open:before { content: '\e803'; } /* '' */
-.icon-right-open:before { content: '\e804'; } /* '' */
-.icon-star:before { content: '\e805'; } /* '' */
-.icon-star-empty:before { content: '\e806'; } /* '' */
-.icon-plus:before { content: '\e807'; } /* '' */
-.icon-cancel-circled:before { content: '\e808'; } /* '' */
-.icon-cancel:before { content: '\e809'; } /* '' */
-.icon-search-2:before { content: '\e80a'; } /* '' */
-.icon-minus:before { content: '\e80b'; } /* '' */
-.icon-heart-empty:before { content: '\e80c'; } /* '' */
-.icon-ok:before { content: '\e80d'; } /* '' */
-.icon-ok-circle:before { content: '\e80e'; } /* '' */
-.icon-heart:before { content: '\e80f'; } /* '' */
-.icon-heart-1:before { content: '\e810'; } /* '' */
-.icon-bd:before { content: '\e811'; } /* '' */
-.icon-minus-1:before { content: '\e812'; } /* '' */
-.icon-plus-1:before { content: '\e813'; } /* '' */
-.icon-location:before { content: '\e814'; } /* '' */
-.icon-globe:before { content: '\e815'; } /* '' */
-.icon-bd-1:before { content: '\e816'; } /* '' */
-.icon-bd-logo:before { content: '\e817'; } /* '' */
-.icon-search-1:before { content: '\e818'; } /* '' */
-.icon-search_icon:before { content: '\e819'; } /* '' */
-.icon-up-big:before { content: '\e81a'; } /* '' */
-.icon-left:before { content: '\e81b'; } /* '' */
-.icon-up:before { content: '\e81c'; } /* '' */
-.icon-search:before { content: '\e81d'; } /* '' */
-.icon-rw-msg:before { content: '\e81e'; } /* '' */
-.icon-attach:before { content: '\e81f'; } /* '' */
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-circle:before { content: '\f111'; } /* '' */
-.icon-direction:before { content: '\f124'; } /* '' */
-.icon-youtube-play:before { content: '\f16a'; } /* '' */
-.icon-instagram:before { content: '\f16d'; } /* '' */
-.icon-circle-thin:before { content: '\f1db'; } /* '' */
-.icon-facebook:before { content: '\f30c'; } /* '' */
+.hp-down-dir:before { content: '\e800'; } /* '' */
+.hp-up-dir:before { content: '\e801'; } /* '' */
+.hp-left-dir:before { content: '\e802'; } /* '' */
+.hp-right-dir:before { content: '\e803'; } /* '' */
+.hp-plus:before { content: '\e804'; } /* '' */
+.hp-search-ico:before { content: '\e805'; } /* '' */
+.hp-search:before { content: '\e806'; } /* '' */
+.hp-moon-inv:before { content: '\e807'; } /* '' */
+.hp-user:before { content: '\e808'; } /* '' */
+.hp-left-open-big:before { content: '\e809'; } /* '' */
+.hp-right-open-big:before { content: '\e80a'; } /* '' */
+.hp-up:before { content: '\e80b'; } /* '' */
+.hp-left:before { content: '\e80c'; } /* '' */
+.hp-left-1:before { content: '\e80d'; } /* '' */
+.hp-right:before { content: '\e80e'; } /* '' */
+.hp-cancel:before { content: '\e80f'; } /* '' */
+.hp-cancel-1:before { content: '\e810'; } /* '' */
+.hp-menu:before { content: '\e811'; } /* '' */
+.hp-heart:before { content: '\e812'; } /* '' */
+.hp-view:before { content: '\e813'; } /* '' */
+.hp-chat:before { content: '\e814'; } /* '' */
+.hp-search-1:before { content: '\e815'; } /* '' */
+.hp-126474:before { content: '\e816'; } /* '' */
+.hp-twitter:before { content: '\f099'; } /* '' */
+.hp-facebook:before { content: '\f09a'; } /* '' */
+.hp-circle:before { content: '\f111'; } /* '' */
+.hp-circle-thin:before { content: '\f1db'; } /* '' */

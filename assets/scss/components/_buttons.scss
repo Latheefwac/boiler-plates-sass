@@ -18,15 +18,18 @@
 	align-items: center;
 	@include justify-content(center);
 	color: $white;
-	@include border-radius(4px);
-	
-	@include font-medium();
+	@include border-radius(5px);
 	padding: 0 30px;
 	text-decoration: none;
-	
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	z-index: 1;
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
 	&:hover {
-		background-color: $white;
-		color: $primary-color;
+		
 	}	
 	&.primary {
 		background:$primary-color;
@@ -35,43 +38,69 @@
 			color: $white;
 		}
 	}
+	&.brdr {
+		border:1px solid $primary-color;
+	}
+	&.btn-hp {
+		&:hover {
+			background:#29293B;
+			color: $white;
+			
+		}
+	}
+	&.btn-primary {
+		background:$primary-color;
+		font-weight: 700;
+		border:2px solid $primary-color;
+		&:hover {
+			background:none;
+			color: #000;
+		}
+	}
 	&.btn-md {
-		min-height: 50px;
+		min-height: 45px;
 		font-size: 1.4rem;
+		
 		// @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
 		// 	padding-top: 14px!important;
 		// }
 
 	} 
 	&.btn-sm {
-		min-height: 35px;
+		min-height: 40px;
 		font-size: 1.4rem;
 		// @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
 		// 	padding-top: 6px!important;
 		// }
 	} 
 	&.btn-lg {
-		min-height: 60px;
+		min-height: 57px;
 		font-size: 1.6rem;
+		padding: 0 52px;
+		@include max(767) {
+			min-height: 50px;
+			
+		}
 		// @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
 		// 	padding-top: 20px;
 		// }
-		@include max(1450) {
-			min-height: 60px;
-			font-size: 1.5rem;
-		}
-		@include max(1199) {
-			min-height: 50px;
-			font-size: 1.3rem;
-		}
-		@include max(767) {
-			min-height: 40px;
-			font-size: 1.1rem;
-		}
+		// @include max(1450) {
+		// 	min-height: 60px;
+		// 	font-size: 1.5rem;
+		// }
+		// @include max(1199) {
+		// 	min-height: 50px;
+		// 	font-size: 1.3rem;
+		// }
+		// @include max(767) {
+		// 	min-height: 40px;
+		// 	font-size: 1.1rem;
+		// }
 	}
 	&.btn-icon  {
 		position: relative;
 		padding-left: 50px;
+		
 		img,svg {
 			position: absolute;
 			width: 22px;
@@ -81,12 +110,22 @@
 			@include transition(all,ease-in-out,0.3s);
 		}
 		&:hover{
+		
 			svg{
 				fill: $primary-color !important;
 			}
 		}
 	}
 
+	&.plus-icon {
+		position: relative;
+		border: none;
+		&:hover {
+			background: darken($primary-color,10%);
+			
+			
+		}
+	}
 
 	&.styled {
 		border: 1px solid $primary-color;
